@@ -1,0 +1,17 @@
+type, client, tx, amount
+line of some invalid format
+invalid_type, 10, 100, 1.0
+deposit, 10, 100,
+deposit, 10, 101, 0.0
+deposit, 10, 102, 5.0
+deposit, 10, 102, 5.0
+withdrawal, 90, 103, 1000.0
+withdrawal, 10, 103, 1000.0
+resolve, 10, 102,
+chargeback, 10, 102,
+dispute, 10, 900,
+dispute, 10, 102,
+dispute, 10, 102,
+resolve, 10, 102,
+withdrawal, 10, 104, 3.0
+dispute, 10, 102,
