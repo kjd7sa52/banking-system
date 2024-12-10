@@ -118,7 +118,7 @@ According to the [YAGNI](https://es.wikipedia.org/wiki/YAGNI) principle, variant
 
 Applicacation contains one layer of tests. I've found it convininent to collect them in a single file: `tests.rs`.  The same file includes a slim test framework `TestApp` that makes tests more readable and ensures [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)ness.
 
-Features of external crates are assumed to be tested in their repos. For instance handling of parsing errors by `csv` crate.
+Features of external crates are assumed to be tested in their repos. For instance handling of parsing errors by [csv](https://docs.rs/csv/1.3.1/csv/) crate.
 
 Project has initially configured CI where formatting/linting/testing/building is triggered on every push.
 
