@@ -92,7 +92,7 @@ Central part of the application is the `Dispatcher` that implements modified [Co
 
 ### Importer & Exporter
 
-`Exporter` currently implements [Strategy Pattern](https://rust-unofficial.github.io/patterns/patterns/behavioural/strategy.html). This allows for storing the output data not only in stdout, but also other streams/files.
+`Exporter` currently implements [Strategy Pattern](https://rust-unofficial.github.io/patterns/patterns/behavioural/strategy.html). This allows for storing the output data not only in stdout, but also other pipes/files.
 
 In future development, `Importer` is assumed to implement similar pattern. This will allow for replacing source of data with relational database or perhaps other storage.
 
