@@ -1,0 +1,5 @@
+type, client, tx, amount
+deposit,    10, 100, 5.123456
+withdrawal, 10, 101, 0.987
+deposit,    10, 102, 99.999
+# expected total: 104.1354
