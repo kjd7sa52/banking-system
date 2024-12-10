@@ -111,3 +111,11 @@ Application defines `TransactionError` that represents errors introduced by inco
 - `TransactionError::Rejected` is used against records of the input data that are unconditionally invalid. For example they don't comply to the specifed format or are semantically incorrect. This error is reported on `error` logging level.
 
 - `TransactionError::Denied` is used against transactions that cannot be executed due to the circumstances. For instance insufficient funds. This error is reported on `warning` logging level.
+
+According to the [YAGNI](https://es.wikipedia.org/wiki/YAGNI) principle, variants of `TransactionError` don't implement `Error` trait. This may be added in the future if necessary.
+
+### Testing
+
+Applicacation contains one layer of tests. I've found it convininent to collect them in a single file: `tests.rs`.  The same file includes a slim test framework `TestApp` that makes tests more readable and ensures [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)ness.
+
+Features of external crates are assumed to be tested in their repos. For instance handling of parsing errors by `csv` crate.
