@@ -1,6 +1,7 @@
 [package]
 name = "banking_system"
 version = "0.1.0"
+authors = ["Grzegorz Krason <grzegorz.krason@gmail.com>"]
 edition = "2021"
 
 [dependencies]
