@@ -1,5 +1,7 @@
 # Simple Banking System
 
+![](https://github.com/kjd7sa52/banking-system/actions/workflows/tests.yml/badge.svg)
+
 Coding exercise. It is not intended to be any usable application at this point.
 
 ## Usage
