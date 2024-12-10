@@ -98,7 +98,7 @@ In future development, `Importer` is assumed to implement similar pattern. This 
 
 ### Amounts
 
-Data type used for amounts is `Decimal` from `rust_decimal` crate that is dedicated for financial operations. This opens many options for integrating with an SQL database or adjusting behavior of the application. For instance we may easily change how the application handles input data with more than 4 digits past the decimal point.
+Data type used for amounts is `Decimal` from [rust_decimal](https://docs.rs/rust_decimal/latest/rust_decimal/) crate that is dedicated for financial operations. This opens many options for integrating with an SQL database or adjusting behavior of the application. For instance we may easily change how the application handles input data with more than 4 digits past the decimal point.
 
 `held_amount` and `available_amount` always complement each other to `total_amount`. Based on this fact, we only sotre and operate on two variables. The third is calculated based on the other variables on demand. This ensures coherency thus increases robustness of the code.
 
