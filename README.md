@@ -120,6 +120,8 @@ Applicacation contains one layer of tests. I've found it convininent to collect 
 
 Features of external crates are assumed to be tested in their repos. For instance handling of parsing errors by `csv` crate.
 
+Project has initially configured CI where formatting/linting/testing/building is triggered on every push.
+
 ## Author
 
 - [Grzegorz Krason](<mailto:grzegorz.krason@gmail.com>)
