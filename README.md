@@ -66,7 +66,7 @@ Certain sections of the requirements document are incomplete. The project has be
 
 ## Architecture Overview
 
-Application has been developed with maintainability, scalability and performance in mind. Last but not least, efforts have been made to provide best possible robustness. This minimizes changes for an unconscious developer to introduce bugs in the future development. Examples of this will be provided later in this chapter.
+Application has been developed with maintainability, scalability and performance in mind. Last but not least, efforts have been made to provide best possible robustness. This **minimizes changes for an unconscious developer to introduce bugs** in the future development. Examples of this will be provided later in this chapter.
 
 ### Dispatcher
 
